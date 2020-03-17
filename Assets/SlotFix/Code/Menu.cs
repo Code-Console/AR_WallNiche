@@ -97,13 +97,13 @@ public class Menu : MonoBehaviour
         switch (no)
         {
             case 0:
-                Application.OpenURL("https://shop.slotfix.de");
+                Application.OpenURL("https://hututusoftwares.com/");
                 break;
             case 1:
-                Application.OpenURL("https://amzn.to/2nkcE2j");
+                Application.OpenURL("https://hututusoftwares.com/");
                 break;
             case 2:
-                Application.OpenURL("https://www.ebay.de/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313.TR12.TRC2.A0.H0.Xslotfix.TRS0&_nkw=slotfix&_sacat=0");
+                Application.OpenURL("https://hututusoftwares.com/");
                 break;
             case 3:
                 setScreen(2);
@@ -122,7 +122,7 @@ public class Menu : MonoBehaviour
                 transform.Find("subinstructionscreen").Find("ScrollSnap").GetComponent<ScrollSnapRect>().SetPage(0);
                 break;
             case 8:
-                Application.OpenURL("https://www.youtube.com/watch?v=F1zoX9HUVmo&t=16s");
+                Application.OpenURL("https://youtu.be/PI2vg7zQaJs");
                 break;
             case 9:
                 setScreen(6);
